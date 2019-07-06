@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 # render-engine = { path = "../render-engine/" }
-render-engine = { git = "https://github.com/cynic64/render-engine", rev = "b2d7be1bce6c0dba1488a070ddc5901942acf984" }
+render-engine = { git = "https://github.com/cynic64/render-engine", rev = "0327873d72e1ea9595335c9108cd0161a3d5b426" }
 
 [profile.release]
 debug = true
