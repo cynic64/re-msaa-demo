@@ -1,0 +1,12 @@
+[package]
+name = "msaa-test-re"
+version = "0.1.0"
+authors = ["cynic64 <f3bl@gmx.com>"]
+edition = "2018"
+
+[dependencies]
+# render-engine = { path = "../render-engine/" }
+render-engine = { git = "https://github.com/cynic64/render-engine", rev = "b2d7be1bce6c0dba1488a070ddc5901942acf984" }
+
+[profile.release]
+debug = true
